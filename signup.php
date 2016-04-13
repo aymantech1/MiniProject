@@ -57,7 +57,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="panel-footer">Go to Login? <a href="login.php" class="">Login</a>
+                <div class="panel-footer">Have a account? <a href="login.php" class="">Login</a>
                 </div>
             </div>
         </div>

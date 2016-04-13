@@ -28,14 +28,14 @@
 
                 </div>
                 <div class="panel-body">
-                    <form action="usercheck.php" method="POST">
+                    <form action="Views/BITM/SEIP116718/loginprocess.php" method="POST">
                         <div class="form-group">
                           <label for="usernameoremil">Username or email address</label>
-                          <input type="text" class="form-control" id="usernameoremil">
+                          <input name="usernameoremil" type="text" class="form-control" id="usernameoremil">
                         </div>
                         <div class="form-group">
                           <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                          <input name="password" type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
