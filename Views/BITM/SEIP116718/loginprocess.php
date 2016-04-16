@@ -20,3 +20,7 @@ $_POST['password'] = $password;
 $user = new Users();
 
 $oneuser = $user->prepare($_POST)->user();
+$_SESSION['loginname'] = $oneuser['username'];
+echo"<pre>";
+print_r($oneuser);
+echo"</pre>";

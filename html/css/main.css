@@ -323,3 +323,108 @@ body {
 .form-group.last {
  margin-bottom:0px;
 }
+.logo{
+    margin-top: -15px;;
+}
+.fa-sign-out{
+    width: 60px;
+    height: 60px;
+}
+.top_lay{
+    margin-top: 25px;
+}
+#name_color{
+    color: #398439;
+}
+.header_area{
+    min-height: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header_area h3{
+    margin-top: 80px;
+    color: white;
+}
+.header_area p{
+    margin-top: 10px;
+    color: white;
+}
+.ppp{
+    margin-top: 5px;
+}
+.marginfor{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+ 
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    min-height: 1px;
+   padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+.profileimage{
+    
+}
+
+.image_update_link{
+    
+}
+.image_update_link a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.widimg{
+    width: 220px;
+    border: 2px solid #96FF96;
+    border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    border: 2px solid #96FF96;
+    border-top: 0px;
+}
+.widimg:hover{
+    color: white;
+    width: 220px;
+    border: 2px solid #96FF96;
+    border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    border: 2px solid #96FF96;
+    border-top: 0px;
+}
+.img-rounded{
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    border: 2px solid #96FF96;
+    border-bottom: 0px;
+}
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #96FF96;
+
+}
+.image_area{
+}
+.address_phone{
+    color: white;
+}
+.address_phone h1{
+    color: white;
+    text-align: center;
+}
+.address_bottom{
+    color: white;
+    width: 220px;
+    border: 2px solid #96FF96;
+    background-color:#96FF96; 
+}
+
+.address_bottom a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
