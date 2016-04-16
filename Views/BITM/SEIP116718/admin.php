@@ -4,9 +4,11 @@ use App\BITM\SEIP116718\Users\Users;
 
 $alluser = new Users();
 $alluserdata = $alluser->allusers();
-//echo "<pre>";
-//print_r($alluserdata);
-//echo "</pre>";
+//if($_SESSION['username']!=="admin" || $_SESSION['username']!=="admin@gmail.com"){
+//    $home_url = '../../../login.php';
+//    header('Location: '.$home_url);
+//    exit();
+//}
 
 if(!isset($_SESSION["username"]) and empty($_SESSION['username'])){
     $home_url = '../../../login.php';
@@ -57,7 +59,7 @@ exit(); }
                           <li><a href="#">Page 3</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a>Login as :<span style="color:#353300"><b><?php echo " ".$_SESSION['id']?></b></span></a></li>
+                            <li><a>Login as :<span style="color:#1BA261"><b><?php echo "Admin"?></b></span></a></li>
                             <li><a href="../../../logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                         </ul>
                       </div>

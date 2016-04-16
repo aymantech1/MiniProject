@@ -113,13 +113,21 @@ class Users {
         $result1 = mysql_query($query) or die(mysql_error());
         $result = mysql_fetch_assoc($result1);
         $rows = mysql_num_rows($result1);
-        if($rows==1)
+        if($rows==1 && $this->username=="admin" || $this->username=="admin@gmail.com")
+            {   
+                session_start();
+                $_SESSION['username'] = "$this->username";
+                $_SESSION['id'] = "$this->id";
+                header("Location: admin.php"); // Redirect user to index.php
+            }
+        elseif($rows==1)
             {   
                 session_start();
                 $_SESSION['username'] = "$this->username";
                 $_SESSION['id'] = "$this->id";
                 header("Location: index.php"); // Redirect user to index.php
             }
+        
         else 
             {
                 $home_url = '../../../login.php';

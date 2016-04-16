@@ -6,6 +6,10 @@ $oneshow = new Users();
 $_POST['id'] = $_SESSION['id'];
 $onedataview = $oneshow->prepare($_POST)->index();
 
+//echo "<pre>";
+//print_r($onedataview);
+//echo "</pre>";
+//die();
 
 
 if(!isset($_SESSION["username"]) and empty($_SESSION['username'])){
@@ -57,7 +61,7 @@ exit(); }
                           <li><a href="#">Page 3</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a>Login as :<span style="color:#353300"><b><?php echo " ".$_SESSION['id']?></b></span></a></li>
+                            <li><a>Login as :<span style="color:#353300"><b><?php echo " ".$_SESSION['username']?></b></span></a></li>
                             <li><a href="../../../logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                         </ul>
                       </div>
